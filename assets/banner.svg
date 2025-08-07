@@ -1,0 +1,22 @@
+<svg width="1000" height="140" viewBox="0 0 1000 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="140" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1e2235"/>
+      <stop offset="0.5" stop-color="#232946"/>
+      <stop offset="1" stop-color="#1e2235"/>
+    </linearGradient>
+    <pattern id="squares" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="12" height="12" fill="#4F46E5" opacity="0.14"/>
+      <rect x="22" y="22" width="9" height="9" fill="#7C3AED" opacity="0.12"/>
+    </pattern>
+    <pattern id="zigzag" width="60" height="40" patternUnits="userSpaceOnUse">
+      <polyline points="0,35 15,25 30,35 45,25 60,35" stroke="#4F46E5" stroke-width="2.5" fill="none" opacity="0.15"/>
+    </pattern>
+  </defs>
+  <rect width="1000" height="140" fill="url(#bg)"/>
+  <rect width="1000" height="140" fill="url(#squares)"/>
+  <rect width="1000" height="140" fill="url(#zigzag)"/>
+  <text x="50%" y="75" dominant-baseline="middle" text-anchor="middle" font-size="50" fill="#31912a" font-family="Fira Code, monospace" font-weight="900" letter-spacing="2">
+    Suvrit Sharma
+  </text>
+</svg>
